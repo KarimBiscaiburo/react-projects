@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/KarimBiscaiburo/react-projects/issues"
   },
-  "homepage": "https://github.com/KarimBiscaiburo/react-projects#readme"
+  "homepage": "https://github.com/KarimBiscaiburo/react-projects#readme",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_module/standard/eslintrc.json"
+  }
 }
